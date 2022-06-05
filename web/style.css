@@ -1,0 +1,39 @@
+header{
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+}
+
+img{
+    width: 150px;
+}
+.primerita-seccion{
+    background-color: aqua;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+.terminos{
+    font-size: 10px;
+}
+button{
+    background-color: green;
+    color: white;
+}
+.menu-footer{
+    color: gray;
+}
+.iconos-benefits{
+    border: solid;
+    width: 60px;
+}
