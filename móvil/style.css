@@ -1,24 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-
-}
-
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
-header{
+.header {
     background-color: black;
+    width: 100%;
+    height: 60px;
+
+
+
 }
 
-nav{
+.nav {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-img{
-    width: 150px;
+.logo {
+    width: 120px;
+    position: relative;
+    left: 5px;
+    top: 10px;
 }
 .primerita-seccion{
     background-color: #1d75de;
@@ -68,7 +68,14 @@ h2{
     display: flex;
     margin: 30px
 }
-.iconos-benefits{
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+
+.iconos-benefits {
     border: solid;
     width: 60px;
 }
