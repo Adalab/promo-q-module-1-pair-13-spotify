@@ -55,9 +55,15 @@ button {
     color: white;
 }
 
-.menu-footer {
-    color: gray;
+.footer {
+    background-color: black;
 }
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
 
 .iconos-benefits {
     border: solid;
