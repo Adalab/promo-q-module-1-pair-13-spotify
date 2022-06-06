@@ -1,39 +1,65 @@
-header{
+.header {
     background-color: black;
+    width: 100%;
+    height: 60px;
+
+
+
 }
 
-nav{
+.nav {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-img{
-    width: 150px;
+.logo {
+    width: 120px;
+    position: relative;
+    left: 5px;
+    top: 10px;
 }
-.primerita-seccion{
+
+.menu-header {
+    width: 35px;
+    height: 40px;
+    position: relative;
+    right: 5px;
+    top: 8px;
+}
+
+.primerita-seccion {
     background-color: aqua;
     color: white;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 30px;
 }
 
-p{
+p {
     font-size: 20px;
 }
-.terminos{
+
+.terminos {
     font-size: 10px;
 }
-button{
+
+button {
     background-color: green;
     color: white;
 }
-.menu-footer{
+
+.menu-footer {
     color: gray;
 }
-.iconos-benefits{
+
+.iconos-benefits {
     border: solid;
     width: 60px;
 }
