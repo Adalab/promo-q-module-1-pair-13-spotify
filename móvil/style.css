@@ -1,13 +1,15 @@
 .header {
     background-color: black;
     width: 100%;
-    height: 60px;
+    height: 3.75em;
 
 }
 
 .nav {
     background-color: black;
+    height: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 
 }
@@ -21,31 +23,56 @@
     top: 10px;
 }
 
-.barritas{
+.menu-options {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+
+}
+
+.menu .list {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    padding: 0.625rem;
+}
+
+.menu .links {
+    color: white;
+    padding: 0.625em;
+}
+
+.barritas {
     padding: 10px 20px;
     height: 40px;
+
 }
-.primerita-seccion{
+
+.primerita-seccion {
     background-color: #1d75de;
     color: white;
 }
-h1{
+
+h1 {
     font-size: 35px;
     font-weight: bold;
     padding: 20px;
     padding-top: 60px;
 }
-h3{
+
+h3 {
     font-size: 20px;
     font-weight: bold;
     padding: 20px;
 }
 
-.enlace-planes{
+.enlace-planes {
     margin: 20px;
-    
+
 }
-.first-section-button{
+
+.first-section-button {
     background-color: #1ed760;
     color: white;
     border: none;
@@ -54,22 +81,22 @@ h3{
     font-size: 12px;
     font-weight: bold;
     text-decoration: none
-    
 }
-.terminos{
+
+.terminos {
     font-size: 12px;
     padding: 20px 20px;
     padding-bottom: 30px;
 }
 
-h2{
+h2 {
     font-size: 26px;
     font-weight: bold;
     margin: 20px;
     text-align: center;
 }
 
-.lista-benefits{
+.lista-benefits {
     display: flex;
     margin: 30px
 }
@@ -85,6 +112,20 @@ a {
     width: 60px;
 }
 
-.menu-footer{
+.menu-footer {
     color: gray;
+}
+
+@media all and (max-width: 480px) {
+    .menu-options {
+        display: none;
+    }
+
+
+}
+
+@media all and (min-width: 480px) {
+    .barritas {
+        display: none;
+    }
 }
